@@ -26,5 +26,25 @@ namespace FollowMe.Controllers
 
             return View();
         }
+        public ActionResult Marketplace()
+        {
+            ViewBag.Message = "Your marketplace page.";
+
+            return View();
+        }
+
+        public ActionResult Subscriptions()
+        {
+            ViewBag.Message = "Your subscriptions page.";
+
+            return View();
+        }
+
+        public ActionResult StreamingNow()
+        {
+            ViewBag.Message = "Your streaming now page.";
+
+            return View();
+        }
     }
 }
